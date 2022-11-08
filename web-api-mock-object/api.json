@@ -1,0 +1,68 @@
+{
+    "uuid": "58571f52-b8b9-4e7d-8069-dff88037ac37",
+    "lastMigration": 20,
+    "name": "Api",
+    "endpointPrefix": "",
+    "latency": 0,
+    "port": 4001,
+    "hostname": "0.0.0.0",
+    "routes": [
+        {
+            "uuid": "df3dff2a-84f3-4deb-84f4-f8f6daf408c6",
+            "documentation": "",
+            "method": "get",
+            "endpoint": "hello",
+            "responses": [
+                {
+                    "uuid": "53b53532-2e75-47f3-b9d2-477a8f3ecdb1",
+                    "body": "{\n  \"hello\": \"Helll world\"\n}",
+                    "latency": 0,
+                    "statusCode": 200,
+                    "label": "",
+                    "headers": [],
+                    "filePath": "",
+                    "sendFileAsBody": false,
+                    "rules": [],
+                    "rulesOperator": "OR",
+                    "disableTemplating": false,
+                    "fallbackTo404": false,
+                    "default": true
+                }
+            ],
+            "enabled": true,
+            "randomResponse": false,
+            "sequentialResponse": false
+        }
+    ],
+    "proxyMode": false,
+    "proxyHost": "",
+    "proxyRemovePrefix": false,
+    "tlsOptions": {
+        "enabled": false,
+        "type": "CERT",
+        "pfxPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "caPath": "",
+        "passphrase": ""
+    },
+    "cors": true,
+    "headers": [
+        {
+            "key": "Content-Type",
+            "value": "application/json"
+        }
+    ],
+    "proxyReqHeaders": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ],
+    "proxyResHeaders": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ]
+}
